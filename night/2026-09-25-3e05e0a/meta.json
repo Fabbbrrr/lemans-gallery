@@ -1,0 +1,323 @@
+{
+ "run": "2026-09-25-3e05e0a",
+ "date": "2026-09-25",
+ "commit": "3e05e0a",
+ "timestamp": "2026-09-25T14:46:15",
+ "track": "Le Mans Lakeside",
+ "renderer": "Blender/Cycles CPU (bpy 4.2.0), denoised",
+ "samples": 24,
+ "resolution": [
+  1280,
+  720
+ ],
+ "lap_length_m": 580.6,
+ "ground_mode": "open",
+ "lighting": {
+  "source": "config.json csp_lights + structures.floodlight_poles",
+  "intensity": 0.9,
+  "spot_power_w": 120000.0,
+  "spot_deg": 65,
+  "range_m": 42,
+  "fade_at_m": 250,
+  "lamp_emissive": 4.0,
+  "color": [
+   3.0,
+   2.85,
+   2.6
+  ],
+  "spot_blend": 0.35,
+  "aim": "nearest centreline point, as 07_package.py [LIGHT_n]",
+  "sky_night": [
+   [
+    0.02,
+    0.035,
+    0.07
+   ],
+   0.45
+  ],
+  "sky_dusk_overviews": [
+   [
+    0.055,
+    0.075,
+    0.13
+   ],
+   1.0
+  ],
+  "overviews": "the 3 overviews are rendered at blue hour (lifted dusk sky); the section shots use the night sky, so unlit stretches stay dark",
+  "note": "CSP intensity is its own unit; spot_power_w is the Cycles mapping that reproduces the same reading (pools with dark gaps, nothing blown out)."
+ },
+ "images": [
+  {
+   "file": "01-bridge-bend.jpg",
+   "thumb": "01-bridge-bend.jpg",
+   "id": "01-bridge-bend",
+   "kind": "section",
+   "name": "Bridge Bend",
+   "dist": "s 28 m  (section 10-56 m)",
+   "label": "Bridge Bend &middot; s 28 m  (section 10-56 m)",
+   "station_s_m": 27.5,
+   "section_m": [
+    10.0,
+    55.5
+   ],
+   "section": "Bridge Bend",
+   "kb": 71.4,
+   "quality": 82
+  },
+  {
+   "file": "02-waterview-straight.jpg",
+   "thumb": "02-waterview-straight.jpg",
+   "id": "02-waterview-straight",
+   "kind": "section",
+   "name": "Waterview Straight",
+   "dist": "s 76 m  (section 56-116 m)",
+   "label": "Waterview Straight &middot; s 76 m  (section 56-116 m)",
+   "station_s_m": 75.5,
+   "section_m": [
+    55.5,
+    115.5
+   ],
+   "section": "Waterview Straight",
+   "kb": 72.5,
+   "quality": 82
+  },
+  {
+   "file": "03-corkscrew-chicane.jpg",
+   "thumb": "03-corkscrew-chicane.jpg",
+   "id": "03-corkscrew-chicane",
+   "kind": "section",
+   "name": "Corkscrew Chicane",
+   "dist": "s 127 m  (section 116-148 m)",
+   "label": "Corkscrew Chicane &middot; s 127 m  (section 116-148 m)",
+   "station_s_m": 126.5,
+   "section_m": [
+    115.5,
+    147.5
+   ],
+   "section": "Corkscrew Chicane",
+   "kb": 65.1,
+   "quality": 82
+  },
+  {
+   "file": "04-the-hook.jpg",
+   "thumb": "04-the-hook.jpg",
+   "id": "04-the-hook",
+   "kind": "section",
+   "name": "The Hook",
+   "dist": "s 163 m  (section 148-179 m)",
+   "label": "The Hook &middot; s 163 m  (section 148-179 m)",
+   "station_s_m": 163.3,
+   "section_m": [
+    147.5,
+    179.0
+   ],
+   "section": "The Hook",
+   "kb": 35.0,
+   "quality": 82
+  },
+  {
+   "file": "05-container-straight.jpg",
+   "thumb": "05-container-straight.jpg",
+   "id": "05-container-straight",
+   "kind": "section",
+   "name": "Container Straight",
+   "dist": "s 202 m  (section 179-224 m)",
+   "label": "Container Straight &middot; s 202 m  (section 179-224 m)",
+   "station_s_m": 201.5,
+   "section_m": [
+    179.0,
+    224.0
+   ],
+   "section": "Container Straight",
+   "kb": 44.4,
+   "quality": 82
+  },
+  {
+   "file": "06-sweeper.jpg",
+   "thumb": "06-sweeper.jpg",
+   "id": "06-sweeper",
+   "kind": "section",
+   "name": "Sweeper",
+   "dist": "s 230 m  (section 224-268 m)",
+   "label": "Sweeper &middot; s 230 m  (section 224-268 m)",
+   "station_s_m": 230.0,
+   "section_m": [
+    224.0,
+    268.0
+   ],
+   "section": "Sweeper",
+   "kb": 56.6,
+   "quality": 82
+  },
+  {
+   "file": "07-back-straight.jpg",
+   "thumb": "07-back-straight.jpg",
+   "id": "07-back-straight",
+   "kind": "section",
+   "name": "Back Straight",
+   "dist": "s 295 m  (section 268-308 m)",
+   "label": "Back Straight &middot; s 295 m  (section 268-308 m)",
+   "station_s_m": 295.0,
+   "section_m": [
+    268.0,
+    307.5
+   ],
+   "section": "Back Straight",
+   "kb": 67.7,
+   "quality": 82
+  },
+  {
+   "file": "08-wombat.jpg",
+   "thumb": "08-wombat.jpg",
+   "id": "08-wombat",
+   "kind": "section",
+   "name": "Wombat",
+   "dist": "s 328 m  (section 308-348 m)",
+   "label": "Wombat &middot; s 328 m  (section 308-348 m)",
+   "station_s_m": 327.8,
+   "section_m": [
+    307.5,
+    348.0
+   ],
+   "section": "Wombat",
+   "kb": 45.4,
+   "quality": 82
+  },
+  {
+   "file": "09-sandbox.jpg",
+   "thumb": "09-sandbox.jpg",
+   "id": "09-sandbox",
+   "kind": "section",
+   "name": "Sandbox",
+   "dist": "s 354 m  (section 348-400 m)",
+   "label": "Sandbox &middot; s 354 m  (section 348-400 m)",
+   "station_s_m": 354.0,
+   "section_m": [
+    348.0,
+    399.5
+   ],
+   "section": "Sandbox",
+   "kb": 68.9,
+   "quality": 82
+  },
+  {
+   "file": "10-brock-bend.jpg",
+   "thumb": "10-brock-bend.jpg",
+   "id": "10-brock-bend",
+   "kind": "section",
+   "name": "Brock Bend",
+   "dist": "s 406 m  (section 400-440 m)",
+   "label": "Brock Bend &middot; s 406 m  (section 400-440 m)",
+   "station_s_m": 405.5,
+   "section_m": [
+    399.5,
+    440.1
+   ],
+   "section": "Brock Bend",
+   "kb": 62.9,
+   "quality": 82
+  },
+  {
+   "file": "11-lakeside-view.jpg",
+   "thumb": "11-lakeside-view.jpg",
+   "id": "11-lakeside-view",
+   "kind": "section",
+   "name": "Lakeside View",
+   "dist": "s 472 m  (section 440-474 m)",
+   "label": "Lakeside View &middot; s 472 m  (section 440-474 m)",
+   "station_s_m": 471.6,
+   "section_m": [
+    440.1,
+    474.0
+   ],
+   "section": "Lakeside View",
+   "kb": 68.5,
+   "quality": 82
+  },
+  {
+   "file": "12-the-bus-stop.jpg",
+   "thumb": "12-the-bus-stop.jpg",
+   "id": "12-the-bus-stop",
+   "kind": "section",
+   "name": "The Bus Stop",
+   "dist": "s 494 m  (section 474-514 m)",
+   "label": "The Bus Stop &middot; s 494 m  (section 474-514 m)",
+   "station_s_m": 493.8,
+   "section_m": [
+    474.0,
+    513.6
+   ],
+   "section": "The Bus Stop",
+   "kb": 31.2,
+   "quality": 82
+  },
+  {
+   "file": "13-pit-loop.jpg",
+   "thumb": "13-pit-loop.jpg",
+   "id": "13-pit-loop",
+   "kind": "section",
+   "name": "Pit Loop",
+   "dist": "s 547 m  (section 514-581 m)",
+   "label": "Pit Loop &middot; s 547 m  (section 514-581 m)",
+   "station_s_m": 547.1,
+   "section_m": [
+    513.6,
+    580.6
+   ],
+   "section": "Pit Loop",
+   "kb": 38.5,
+   "quality": 82
+  },
+  {
+   "file": "90-aerial-dusk.jpg",
+   "thumb": "90-aerial-dusk.jpg",
+   "id": "90-aerial-dusk",
+   "kind": "overview",
+   "name": "Aerial overview (dusk)",
+   "dist": "track overview  |  lap 581 m",
+   "label": "Aerial overview (dusk) &middot; track overview",
+   "station_s_m": 0.0,
+   "section_m": [
+    0,
+    0
+   ],
+   "section": "Aerial overview (dusk)",
+   "kb": 66.7,
+   "quality": 82
+  },
+  {
+   "file": "91-start-finish.jpg",
+   "thumb": "91-start-finish.jpg",
+   "id": "91-start-finish",
+   "kind": "overview",
+   "name": "Start / Finish straight",
+   "dist": "track overview  |  lap 581 m",
+   "label": "Start / Finish straight &middot; track overview",
+   "station_s_m": 0.0,
+   "section_m": [
+    0,
+    0
+   ],
+   "section": "Start / Finish straight",
+   "kb": 56.4,
+   "quality": 82
+  },
+  {
+   "file": "92-pit-lane.jpg",
+   "thumb": "92-pit-lane.jpg",
+   "id": "92-pit-lane",
+   "kind": "overview",
+   "name": "Pit lane",
+   "dist": "track overview  |  lap 581 m",
+   "label": "Pit lane &middot; track overview",
+   "station_s_m": 0.0,
+   "section_m": [
+    0,
+    0
+   ],
+   "section": "Pit lane",
+   "kb": 51.6,
+   "quality": 82
+  }
+ ]
+}
